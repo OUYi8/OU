@@ -1,0 +1,21 @@
+{
+  "name": "renovation-app",
+  "version": "1.0.0",
+  "description": "装修进度 · 费用记账 · 验收留证 手机 App",
+  "private": true,
+  "scripts": {
+    "sync": "cap sync android",
+    "build:apk": "cap sync android && cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.2.1",
+    "@capacitor/app": "6.0.2",
+    "@capacitor/camera": "6.1.2",
+    "@capacitor/core": "6.2.1",
+    "@capacitor/haptics": "6.0.2",
+    "@capacitor/status-bar": "6.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.2.1"
+  }
+}
